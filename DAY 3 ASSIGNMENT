@@ -1,0 +1,24 @@
+…or create a new repository on the command line
+skintherapyabj@Skins-iMac ~ % echo
+skintherapyabj@Skins-iMac ~ % "# se-assignment-day-3-environment-setup-Joslurve" 
+zsh: command not found: # se-assignment-day-3-environment-setup-Joslurve
+skintherapyabj@Skins-iMac ~ % git init
+Initialized empty Git repository in /Users/skintherapyabj/.git/
+skintherapyabj@Skins-iMac ~ % git add README.md
+skintherapyabj@Skins-iMac ~ % git commit -m "first commit"
+[master (root-commit) eb492e6] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+skintherapyabj@Skins-iMac ~ % git branch -M main
+skintherapyabj@Skins-iMac ~ % git remote add origin https://github.com/Powerlearnproject/se-assignment-day-3-environment-setup-Joslurve.git
+skintherapyabj@Skins-iMac ~ % git push -u origin main
+
+…or push an existing repository from the command line
+Username for 'https://github.com': git remote add origin https://github.com/Powerlearnproject/se-assignment-day-3-environment-setup-Joslurve.git
+Password for 'https://git remote add origin https://github.com/Powerlearnproject/se-assignment-day-3-environment-setup-Joslurve.git@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Powerlearnproject/se-assignment-day-3-environment-setup-Joslurve.git/'
+skintherapyabj@Skins-iMac ~ % git branch -M main
+skintherapyabj@Skins-iMac ~ % git push -u origin main
+Username for 'https://github.com': 
